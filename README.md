@@ -64,7 +64,7 @@ erDiagram
         int user_id FK
         timestamps
     }
-    }
+```
 
 ## Setup Instructions
 
