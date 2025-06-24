@@ -46,27 +46,6 @@ graph TD
 
 ---
 
-## Entity Relationship Diagram (ERD)
-
-```mermaid
-erDiagram
-    USER ||--o{ ARTICLE : owns
-    USER {
-        int id PK
-        string name
-        string email
-        string password
-    }
-    ARTICLE {
-        int id PK
-        string title
-        text content
-        int user_id FK
-        timestamps
-    }
-    }
-```
-
 ## Setup Instructions
 
 1. **Clone or Download** this repository.
